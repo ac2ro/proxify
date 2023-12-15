@@ -69,7 +69,7 @@ if not file_exists(DLL_PATH):
 
     prompt.print_min('Specified DLL was not found.')
     sys.exit(0)
-'''if not PAYLOAD_PATH:
+if not PAYLOAD_PATH:
 
     prompt.print_min('Please specify a payload path.')
     sys.exit(0)
@@ -78,7 +78,7 @@ if not file_exists(DLL_PATH):
 if not file_exists(PAYLOAD_PATH):
 
     prompt.print_min('Specified payload file was not found.')
-    sys.exit(0)'''
+    sys.exit(0)
 
 
 if not OUTPUT_PATH:
