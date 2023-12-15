@@ -7,6 +7,7 @@ Proxify is a Simple DLL proxy generator written in python. It utilizes ```pefile
 
 ## Guide
 To generate DLL proxies with proxify clone the repository and ``cd`` into it. run ```python proxify.py --help``` to see the summarized help log.
+
 ## Usage/Examples
 
 ```batch
@@ -17,4 +18,4 @@ This generates a DLL proxy C source file for ``advapi32.dll`` which loads ``calc
 ```batch
 python proxify.py --dll C:\Windows\System32\ntdll.dll --output main.c --payload calc.bin
 ```
-This also generates a DLL proxy C source file but for ``ntdll.dll``. Keep in mind that the larger the dlls , the larger the source file will be.
+This generates a DLL proxy C source file but for ``ntdll.dll``. Keep in mind that the larger the dlls , the larger the source file will be.
